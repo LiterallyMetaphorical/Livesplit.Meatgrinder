@@ -1,6 +1,6 @@
 state("Meatgrinder")
 {
-    bool loading : "UnityPlayer.dll", 0x01A019C0, 0x0, 0x0, 0x78, 0x28, 0x538;
+    bool loading : "UnityPlayer.dll", 0x01AB35E8, 0xD0, 0x8, 0xB8, 0x64, 0x8, 0x448;
 }
 
 startup
@@ -33,7 +33,7 @@ update
 {
 	//DEBUG CODE 
 	//print(modules.First().ModuleMemorySize.ToString());
-	//print(current.loadscreen.ToString());
+	print(current.loading.ToString());
 }
 
 isLoading
