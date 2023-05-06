@@ -16,7 +16,6 @@ init
 	});
 }
 
-
 onStart
 {
     // This makes sure the timer always starts at 0.00
