@@ -3,7 +3,7 @@ state("Meatgrinder") { }
 startup
 {
 	Assembly.Load(File.ReadAllBytes("Components/asl-help")).CreateInstance("Unity");
-	vars.Helper.GameName = "Meatgrinder";
+	vars.Helper.GameName = "MEATGRINDER";
 	vars.Helper.AlertLoadless();
 }
 
