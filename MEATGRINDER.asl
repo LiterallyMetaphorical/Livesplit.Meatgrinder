@@ -49,9 +49,9 @@ start
 
 split
 {
-    if (old.chapterId == "ch1" && current.chapterId == "ch2_worm")
+    if (settings["ch1"] && old.chapterId == "ch1" && current.chapterId == "ch2_worm")
         return true;
 
-    if (old.chapterId == "ch2_worm" && current.chapterId == "ch2")
+    if (settings["ch2_worm"] && old.chapterId == "ch2_worm" && current.chapterId == "ch2")
         return true;
 }
